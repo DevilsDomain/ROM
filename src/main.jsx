@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
      <Canvas gl={ {
             antialias: true,
-            toneMapping: THREE.ACESFilmicToneMapping,
+            toneMapping: THREE.ReinhardToneMapping,
             // outputColorSpace: THREE.SRGBColorSpace
         } }
         camera={ {
